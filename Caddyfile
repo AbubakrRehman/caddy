@@ -1,0 +1,11 @@
+# Caddyfile
+
+# Define the site
+
+www.dsa-window.duckdns.org {
+    reverse_proxy localhost:8090
+}
+
+www.quick-compile.duckdns.org {
+    reverse_proxy localhost:8091
+}
